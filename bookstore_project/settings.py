@@ -142,6 +142,7 @@ STATICFILES_FINDERS = [
 ]
 
 AUTH_USER_MODEL = 'users.CustomUser'
+EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
 
 # django-crispy-forms
 CRISPY_TEMPLATE_PACK = 'bootstrap4'
